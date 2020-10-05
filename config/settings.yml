@@ -1,0 +1,4 @@
+plugins:
+  pm_topic_author_button_enabled:
+    default: true
+    client: true
