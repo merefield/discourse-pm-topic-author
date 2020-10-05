@@ -2,3 +2,8 @@ plugins:
   pm_topic_author_button_enabled:
     default: true
     client: true
+  pm_topic_author_button_enabled_categories:
+    client: true
+    default: ''
+    type: category_list
+    list_type: "compact"

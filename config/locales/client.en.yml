@@ -1,6 +1,7 @@
 en:
   site_settings:
     pm_topic_author_button_enabled: "Enable the Message Author button on Topics"
+    pm_topic_author_button_enabled_categories: "Categories in which the Message Author button will appear"
   js:
     pm_topic_author_button:
       button_label: "Message the Author"
