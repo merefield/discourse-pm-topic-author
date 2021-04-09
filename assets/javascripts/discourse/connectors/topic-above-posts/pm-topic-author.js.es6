@@ -8,7 +8,8 @@ export default {
       component.siteSettings.pm_topic_author_button_enabled &&
         component.siteSettings.pm_topic_author_button_enabled_categories
           .split("|")
-          .includes(`${args.model.category_id}`)
+          .includes(`${args.model.category_id}`) &&
+        args.model.topic_author != this.currentUser.username
     );
   },
 
